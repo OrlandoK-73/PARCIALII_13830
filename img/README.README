@@ -1,0 +1,12 @@
+## Pasos para inicializar y subir tu proyecto a Git:
+
+1. **Inicializar un nuevo repositorio Git**
+2. **Verificar el estado de tus archivos**
+3. **Agregar todos los archivos al área de preparación**
+4. **Hacer un commit con tus cambios**
+5. **Configurar tu correo electrónico en Git**
+6. **Configurar tu nombre en Git**
+7. **Renombrar tu rama principal a 'main' (si es necesario)**
+8. **Agregar el enlace de tu repositorio remoto**
+9. **Empujar tus cambios al repositorio remoto**
+
