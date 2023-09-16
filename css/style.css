@@ -1,0 +1,155 @@
+/* Paleta de colores */
+:root {
+    --color-fondo: #f5f1e8;
+    --color-primario: #000000; /* color café oscuro */
+    --color-secundario: #A3815F; /* color café claro */
+}
+
+/* Reset básico */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-fondo);
+}
+
+/* Navegación */
+.navegacion a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: white; 
+}
+
+/* Header */
+.site-header {
+    background-image: url('C:/Users/OrlandoK_73/Downloads/Tarea Maquetacion/Tarea Maquetacion/img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+.site-header {
+    margin: 0;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3px, 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 span {
+    color: var(--color-secundario);
+    max-width: 10px;
+    height: 20px;
+    margin-top: auto;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.blog {
+    flex: 2; /* el blog toma más espacio */
+    margin-right: 20px;
+}
+
+.cursos {
+    flex: 1;
+}
+
+.entrada-blog {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.entrada-blog .imagen {
+    width: 750px; /* Ancho de la imagen */
+    height: 325px; /* Mantener proporción */
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.entrada-blog .imagen img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.entrada-blog .contenido-blog {
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en columna para poner el botón en la parte inferior */
+    justify-content: space-between; /* Distribuye el espacio entre el título/texto y el botón */
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: auto; /* Mueve el botón al fondo del contenedor .contenido-blog */
+}
+
+.btn-primario {
+    background-color: var(--color-primario);
+    color: white;
+    margin-top: 50px;
+}
+
+.btn-secundario {
+    background-color: var(--color-secundario);
+    color: white;
+    margin-top: 100px;
+}
+
+.cursos-lista .curso {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.site-footer {
+    padding: 20px 0;
+    background-color: var(--color-primario);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.text-container{
+
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
